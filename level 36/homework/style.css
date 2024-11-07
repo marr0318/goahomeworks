@@ -1,0 +1,10 @@
+#a{
+    color: darkcyan;
+    text-align: center;
+    font-size: medium;
+
+}
+
+#a :hover{
+    color: indigo;
+}

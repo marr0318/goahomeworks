@@ -1,0 +1,16 @@
+body{
+    border: 3px solid darkred;
+    border-collapse: collapse;
+}
+
+th{
+    border: darkred 3px solid;
+}
+
+td{
+    border: darkred 3px solid;
+}
+
+tr{
+    border: darkred 3px solid;
+}

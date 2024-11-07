@@ -1,0 +1,9 @@
+p{
+    color: rebeccapurple;
+    font-weight: 600;
+    font-size: large;
+}
+
+p:hover{
+    color: green;
+}
