@@ -1,0 +1,8 @@
+input[type ="text"]{
+    border: 3px solid cornflowerblue;
+}
+
+input[type="password"]{
+    border: 5px dotted coral;
+
+}
