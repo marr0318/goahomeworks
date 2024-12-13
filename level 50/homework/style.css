@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.div-item {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.paragraph {
+    width: 100px;
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.container {
+            display: flex;
+}
+        
+.paragraph {
+            flex-grow: 1;
+            background-color: lightpink;
+            margin: 5px;
+            padding: 10px;
+}
+

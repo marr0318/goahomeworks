@@ -1,0 +1,58 @@
+.div1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: solid 5px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: solid 5px black;
+    padding: 10px 15px 10px 30px;
+}
+
+.div3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid blue ;
+    margin-left: 25px;
+}
+
+.div4{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    padding: 25px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.div5{
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border: 5px dotted red;
+    background-color: cadetblue;
+}
+
+
+/* 1. შექმენით <div> სხვადასხვა margin მნიშვნელობებით: 20px ზევით და ქვევით, 30px მარცხნივ და 15px მარჯვნივ.
+
+2. შექმენით <div> 200px სიგანით, 100px სიმაღლით, შემდეგ გაუკეთეთ padding-ი 10px ზევით/ქვევით და 30px მარცხნივ/მარჯვნივ.
+    
+3. გაუკეთეთ 5px solid ლურჯი საზღვრები <div>-ს, შემდეგ გაუკეთეთ მას margin-ი მარცხენა მხარეს.
+    
+4. შექმენით <div> 15px margin-ით, 25px padding-ით და 2px solid შავი საზღვრით, შემდეგ შეცვალეთ ზედა margin-ი და მარჯვენა 
+        padding-ი.
+    
+5. შექმენით <div> 150px სიგანით, 100px სიმაღლით, 20px margin-ით, 15px padding-ით და 5px dotted წითელი საზღვრით. --> */
