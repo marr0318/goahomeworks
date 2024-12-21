@@ -1,0 +1,12 @@
+div{
+    display: flex;
+}
+img{
+    box-shadow: 30px 30px 30px 30px black;
+    justify-content: center;
+    margin: 20px;
+}
+
+body{
+    background-color: rgb(6, 6, 49);
+}
