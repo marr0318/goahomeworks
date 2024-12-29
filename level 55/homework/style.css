@@ -1,0 +1,22 @@
+h1{
+    position: fixed;
+    left:900px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+
+}
+
+div{
+    background-color: red;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left:100px ;
+    top: 50px;
+}
+
+
