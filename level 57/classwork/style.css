@@ -14,7 +14,7 @@ div{
     box-shadow: 5px 5px 10px 5px  purple;
     background-image: url(R.jpg);
     background-size: 300px;
-    background-position: 120px 150px;
+    background-position: 110px 150px;
     background-repeat: no-repeat;
     transition: 0.5s;
 }

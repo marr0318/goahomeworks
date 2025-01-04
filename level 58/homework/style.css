@@ -1,0 +1,79 @@
+.div2{
+    height: 700px;
+    width: 460px;
+    background-color: rgb(38, 38, 151);
+    border-radius: 20px;
+    background-image:url(pexels-rostislav-uzunov-5011647.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 370px;
+    background-position: 45px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(15, 15, 15);
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+
+}
+
+h1{
+    position: absolute;
+    left: 800px;
+    top: 570px;
+    color: white;
+}
+
+.p1{
+    font-size: 25px;
+    position: absolute;
+    left: 800px;
+    top: 620px;
+    color: rgba(204, 202, 202, 0.651);
+}
+.p2{
+    font-size: 25px;
+    position: absolute;
+    left: 800px;
+    top: 645px;
+    color: rgba(204, 202, 202, 0.651);
+}
+
+.p3{
+    position: absolute;
+    left: 800px;
+    top: 695px;
+    font-size: 20px; 
+    color: aqua;
+}
+
+img{
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 799px;
+    top: 775px;
+    border: white solid 3px;
+}
+
+.p4{
+    position: absolute;
+    left: 870px;
+    top: 780px;
+    color: rgba(204, 202, 202, 0.651);
+    font-size: 18px;
+}
+
+.p5{
+    position: absolute;
+    left: 965px;
+    top: 778px;
+    color:white;
+    font-size: 20px;  
+}
+
+body{
+    background-color: rgb(28, 28, 104);
+}
