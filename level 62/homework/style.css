@@ -1,0 +1,63 @@
+#div1{
+    width: 60px;
+    height: 60px;
+    background-color: cadetblue;
+    border-radius: 100%;
+    border: solid black 1px;
+    animation-name: div1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+
+@keyframes div1{
+    0%{
+
+    }
+
+    50%{
+        position: absolute;
+        top: 190px;
+        left: 180px;
+        height: 80px;
+        rotate: -50deg;
+    }
+
+    100%{
+        position: absolute;
+        top: 100px;
+        left:300px ;
+        rotate: 50deg;
+    }
+    
+}
+
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 170, 172);
+    position: absolute;
+    top: 300px;
+    animation-name: div2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes div2{
+    0%{
+
+    }
+
+    50%{
+        rotate: 360deg;
+        background-color: rgb(247, 247, 57);
+        border-radius: 30px;
+        translate: 80px;
+
+    }
+
+}
