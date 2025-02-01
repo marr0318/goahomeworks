@@ -1,0 +1,46 @@
+body{
+    background-image: url(simple-background-texture-wallpaper-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img1{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    position: absolute;
+    top: 160px;
+}
+
+button{
+    background-color: rgb(34, 9, 9);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 230px;
+
+}
+
+#div1{
+    display: flex;
+    align-items:center;
+
+}
+
+#img2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
