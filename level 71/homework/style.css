@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    font-size: 10px;
+    display: flex;
+
+}
+
+#div2, #div3{
+    gap: 35px;
+}
+
