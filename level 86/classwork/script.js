@@ -1,18 +1,8 @@
-let count = 0
+let word='mari'
+let userInput=' '
 
-function auraTen(){
-    count = 10
-    document.getElementById('h12').textContent=count
-
+while(word!=userInput){
+    userInput=prompt('enter a secret word: ')
 }
 
-function auraTwenty(){
-    count = 20
-    document.getElementById('h12').textContent=count
-}
-
-
-
-
-
-
+alert('success')
