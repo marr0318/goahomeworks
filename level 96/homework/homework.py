@@ -38,4 +38,4 @@ def left_three(list1):
     return new_list2
 
 
-print(garda_mesamis(["maria", "lev", "thelastofus", "ellie", "dina"])) 
+print(garda_mesamis(["maria", "lev", "joel", "ellie", "dina"])) 
