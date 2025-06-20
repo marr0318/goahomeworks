@@ -1,7 +1,0 @@
-name="mariami"
-print(name)
-age=12
-print(str(age))
-
-
-
