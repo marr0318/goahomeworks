@@ -1,3 +1,4 @@
+
 function changeWidth() {
     document.getElementById("img1").style.width = "300px";
 }
@@ -27,5 +28,6 @@ function changeFontSize() {
 // შექმენით საიტი, სადაც გექნებათ ფოტო, სათაური და 6 ღილაკი (სხვადასხვა ფუნქციებით),
 
 // 4 ღილაკით უნდა შეგეძლოთ ფოტოს width, height, border radius, box-shadow, 
+
 
 // დანარჩენი 2 ღილაკით უნდა შეგეძლოთ სათაურის ფერის და ზომის შევლა.

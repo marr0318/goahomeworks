@@ -1,3 +1,4 @@
+
 // შექმენით ღილაკი, რომელზე დაჭერის შემდეგაც საიტზე მანამდე ცარიელ 
 // div-ში ჩაემატება button ელემენტი,
 
@@ -27,4 +28,5 @@ function addParagrap(){
     let button=document.createElement('but');
     button.textContent = 'Button';
     container.appendChild(button);
+
 }

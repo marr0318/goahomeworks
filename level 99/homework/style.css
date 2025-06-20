@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Merriweather', serif;
     margin: 0;
@@ -64,6 +65,7 @@ body {
   }
   .tagline {
     margin-bottom: 16px;
-    color: #89a88d;Add commentMore actions
+    color: #89a88d;
     font-weight: bold;
+
   }

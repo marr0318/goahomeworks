@@ -1,3 +1,4 @@
+
 // 1. შექმენით ფილმის ობიექტის კონსტრაქტორი, ამ კუთვნილებებით: name, genre, year, imdb და review - 
 // სადაც გექნებათ ფუნქცია, რომელიც დააბრუნებს ამ ფილმის ერთ ტექსტურ შეფასებას,
 
@@ -34,4 +35,5 @@ function Person(name, age, lastname) {
 function MyPerson() {
     const person1 = new Person("mary", 89, "gelashvili");
     console.log(person1);
+
 }
