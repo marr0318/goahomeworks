@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    animation-duration: 4s;
+    animation-name: name;
+
+}
+
+@keyframes name{
+    0%{
+        scale: 0.5;
+    }
+
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ❤️ */
+
+

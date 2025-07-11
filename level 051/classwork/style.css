@@ -1,0 +1,29 @@
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+}
+
+.child2{
+    height: 50px;
+    width: 50px;
+    background-color: peru;
+}
+
+.child3{
+    height: 50px;
+    width: 50px;
+    background-color: cadetblue;
+}
+
+.child4{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+}
+
+.parent{
+
+    display: flex;
+    flex-direction: row-reverse;
+}

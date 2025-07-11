@@ -1,0 +1,34 @@
+img{
+    width: 380px;
+    border-radius: 20px;
+    margin: 30px;
+    border: 3px black solid;
+}
+
+img:hover{
+    box-shadow: 0 10px 12px black;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+p{
+    width: 600px;
+    margin-left: 650px;
+    font-size: 20px;
+}
+
+body{
+    background-color: lightcyan;
+}

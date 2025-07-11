@@ -1,0 +1,3 @@
+i=int(input("type a number:"))
+while i !=23 :
+    i=int(input("type a number:"))

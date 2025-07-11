@@ -1,0 +1,36 @@
+.img{
+    width: 350px;
+    height: 400px;
+}
+
+#img1{
+    width: 300px;
+    height: 300px;
+}
+
+#img2{
+    width: 100px;
+    height: 70px;
+    margin-top: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#id{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1{
+    margin-left: 100px;
+}

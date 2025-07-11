@@ -1,0 +1,19 @@
+
+#img1{
+    width: 400px;
+    height: 400px;
+}
+
+#h11{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+
+
+}

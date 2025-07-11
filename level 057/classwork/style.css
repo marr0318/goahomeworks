@@ -1,0 +1,24 @@
+body{
+    background-color: lightpink;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    background-color: palevioletred;
+    border: white solid 4px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px  purple;
+    background-image: url(R.jpg);
+    background-size: 300px;
+    background-position: 110px 150px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+div:hover{
+    transform: scale(1.3);
+}

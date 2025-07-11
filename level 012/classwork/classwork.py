@@ -1,0 +1,10 @@
+#sequencing
+1,2,3,4,5
+#iteraton
+print("hi")
+print("hi")
+print("hi")
+print("hi")
+print("hi")
+#selection
+print(6>3)

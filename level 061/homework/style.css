@@ -1,0 +1,133 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: nname;
+    animation-duration: 2s;
+    border-radius: 40px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+@keyframes nname{
+    0%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: blue;
+    }
+
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation-name: div2;
+    animation-duration: 10s;
+    border-radius: 100px;
+    position: absolute;
+    top: 420px;
+    left: 300px;
+}
+
+@keyframes div2 {
+    0%{
+
+    }
+
+    50%{
+        position: absolute;
+        top:680px ;
+        left: 500px;
+    }
+
+    70%{
+        position: absolute;
+        top: 420px;
+        left: 650px;
+    }
+
+    80%{
+        position: absolute;
+        top: 680px;
+        left: 750px;
+    }
+
+    100%{
+        position: absolute;
+        top: 420px;
+        left: 900px;
+
+    }
+    }
+
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    border-radius: 40px;
+    animation-name: div3;
+    animation-duration: 5s;
+}
+
+@keyframes div3{
+    0%{
+
+    }
+
+    100%{
+        rotate: 360deg;
+    }
+}
+
+h1{
+    color: deeppink;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    animation-name: h1;
+    animation-duration: 5s;
+    font-size: 60px;
+}
+
+@keyframes h1{
+    0%{
+        color: deeppink;
+    }
+
+    100%{
+        color: darkviolet;
+    }
+}
+
+#div4{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 150px;
+    left: 1400px;
+    border-radius: 40px;
+    animation-name: div4;
+    animation-duration: 5s;
+}
+
+@keyframes div4{
+    0%{
+        scale: 1;   
+    }
+
+    50%{
+        scale: 2;
+    }
+
+    100%{
+        scale: 0.5;
+    }
+}

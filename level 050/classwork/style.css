@@ -1,0 +1,29 @@
+.child{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph{
+    flex-wrap: wrap;
+}
+
+.p1{
+    display: flex;
+    border: 5px solid black;
+    flex-wrap: wrap;
+}
+
+.p2{
+    display: flex;
+    border: 5px solid black;
+    flex-shrink: 4;
+}
+
+.p3{
+    flex-grow: 4;
+}
+
+
+
+
+

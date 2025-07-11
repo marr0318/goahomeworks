@@ -1,0 +1,120 @@
+body {
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.solar-system {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+
+} 
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* No orbit lines */
+}
+
+.mercury {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    left: calc(50% + 60px);
+    top: 50%;
+
+    transform-origin: -50px;
+    animation: orbit 4s linear infinite;
+}
+
+@keyframes orbit {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.venus {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    left: calc(50% + 100px); /* Adjust distance from Sun */
+    top: 50%;
+}
+
+/* Add more planets similarly, adjusting 'left' for distance */
+.earth {
+    width: 18px;
+    height: 18px;
+    background-color: lightblue;
+    left: calc(50% + 140px);
+    top: 50%;
+}
+.mars {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    left: calc(50% + 180px);
+    top: 50%;
+}
+.jupiter {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    left: calc(50% + 250px);
+    top: 50%;
+}
+.saturn {
+    width: 25px;
+    height: 25px;
+    background-color: gold;
+    left: calc(50% + 320px);
+    top: 50%;
+}
+.uranus {
+    width: 22px;
+    height: 22px;
+    background-color: lightcyan;
+    left: calc(50% + 380px);
+    top: 50%;
+}
+.neptune {
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+    left: calc(50% + 440px);
+    top: 50%;
+}
+
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+}

@@ -1,0 +1,26 @@
+#div1{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+
+
+h1{
+    font-size: 180px;
+    margin-top: 50px;
+    font-family: "Bona Nova SC", serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+img{
+    margin-bottom: 100px;
+    margin-left: 350px;
+    width: 900px;
+
+}
