@@ -1,23 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      font-family: Arial, sans-serif;
+    }
+
+    #a1 {
+      background: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    #p1 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    #p2 {
+      font-size: 16px;
+    }
+
+    #p3 {
+      width: 20px;
+      height: 20px;
+      border: 1px solid black;
+      border-radius: 50%;
+    }
+
+    #a2 {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      padding: 60px 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .p4 {
+      background: #111;
+      border-radius: 30px;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      width: 360px;
+    }
+
+    .p4 img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .p5 {
+      margin-top: 10px;
+      text-align: center;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    #a3 {
+      display: flex;
+      justify-content: center;
+      margin-top: -60px;
+      padding-bottom: 60px;
+    }
+
+    #p6 {
+      background: #111;
+      border-radius: 30px;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      width: 360px;
+    }
+
+    #p6 img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #p7 {
+      margin-top: 10px;
+      text-align: center;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
 </head>
 <body>
-    <div id="div1">
-        <img src="" alt="" id="img1">
-        <h2 id="h2">Xavier Cedric</h2>
-    </div>
-    <button id="btn1">menu</button>
-    <button id="btn2">fr</button>
-    <div id="div2">
-        <img src="img2.PNG" alt="" id="img2">
-        <img src="img3.PNG" alt="" id="img3">
 
+  <div id="a1">
+    <div id="p1">Xavier Cédric</div>
+    <div id="p2">Menu</div>
+    <div id="p3"></div>
+  </div>
+
+  <div id="a2">
+    <div class="p4" id="b1">
+      <div>
+        <img src="cpt1.PNG">
+        <div class="p5">Christau – Website<br>Corporate website</div>
+      </div>
     </div>
-    <img src="img4.png" alt="" id="img4">
+
+    <div class="p4" id="b2">
+      <div>
+        <img src="cpt2.PNG">
+        <div class="p5">Agence Vincent Dubuc<br>Branding / Web</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="a3">
+    <div id="p6">
+      <div>
+        <img src="cpt3.PNG">
+        <div id="p7">OutThere<br>Creative Project</div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
