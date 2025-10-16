@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) შექმენით გვერდი რომელზეც გექნებათ პროდუქტების div, შექმენით პროდუქტების ობიექტების სია, რომელსაც 
+    for ციკლით გადვულით და თითოეულს დაამტებთ პროდუქტების ჩამონათვალში, 
+    ასევე აიღეთ ღილაკი რომელზე დაჭერისასაც პროდუქტი გადავა მომხმარებლის კალათში -->
+
+    <h3>register</h3>
+    <form action="">
+        <input type="text" name="username" placeholder="your username">
+        <input type="password" name="password" placeholder="your password">
+        <button type="submit">register</button>
+    </form>
+    <script src="script.js"></script>
+    <!-- 2) დაწერეთ რა არის promise და მისი მდგომარეობები, ასევე დაწერეთ რა არის ასინქრონიზაცია და 
+    ორივე promise და ასინქრონიზაციაზე მოიყვანეთ ცხოვრებიდან 1 მაგალითი. შემდეგ შექმენით ასქიონრული ფუნქცია 
+    და fetch ფუნქციის გამოყენებით მოცემული api-იდან წამოიღეთ მონაცემები, შემდეგ სწორად მოეპყარით promise-ს და resolve-ის 
+    შემთხვევაში მონაცემები გადაიყვანეთ json ფორმატში .json() მეთოდით, ხოლო reject-ის შემთხვევაში გამოიტანეთ error-ის მიზეზი, 
+    ეს ყველაფერი მოაქციეთ try/catch-ში რომ მოეპროთ error-ებს. -->
+
+Promise არის ობიექტი, რომელიც ასახავს ასინქრონული ოპერაციას.
+მდგომარეობები:
+pending
+fulfilled
+rejected
+
+ასინქრონიზაცია არის კოდის შესრულება ისე, რომ სხვა პროცესი არ შეჩერდეს.
+
+ასინქრონიზაციის მაგალითი: წერ შეტყობინებას და პარალელურად აგრძელებ სხვა საქმეებს, სანამ პასუხი მოვა.
+
+    <script>
+    async function getData() {
+        try{
+    let r= await fetch("https://jsonplaceholder.typicode.com/posts");
+    let data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+getData();
+    </script>
+
+
+
+
+
+</body>
+</html>

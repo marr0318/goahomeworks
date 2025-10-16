@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F6F5EF;
+  color: #111;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+}
+
+.btns a {
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.s1 {
+  color: #222;
+}
+
+.b1 {
+  background: #4AE387;
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: rgb(0, 48, 0);
+}
+
+.p1 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  max-width: 400px;
+}
+
+.hbtns {
+  display: flex;
+  gap: 16px;
+}
+
+.b2, .b3 {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.b2 {
+  background: #4AE387;
+  color: #fff;
+}
+
+.b3 {
+  border: 2px solid #222;
+  color: #222;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  left: 0px;
+}
+
+#div3{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}

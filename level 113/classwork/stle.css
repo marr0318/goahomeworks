@@ -1,0 +1,14 @@
+:root{
+    --d-background-color: green;
+    --d-color:red;
+    --d-margin:30px;
+}
+
+
+
+
+.child{
+    background-color: var(--d-background-color);
+    color: var(--d-color);
+    margin: var(--d-margin);
+}

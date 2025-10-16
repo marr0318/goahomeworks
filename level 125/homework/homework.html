@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <!-- 3) შექმენით manualIndexOf ფუნქცია რომელიც შეასრულებს იგივე დავალებას რასაც indexOf, 
+  არგუმენტებად მიიღებს მასივს და საძიებო ელემენტს, შემდეგ კი დააბრუნებს საძიებო ელემენტის ყველაზე 
+  მიცრე ინდექსს მოცემულ სიაში, თუ საძიებო ელემენტი სიაში არ არის დააბრუნეთ -1 -->
+    <script>
+        function fUNcTion(nm1, nm2) {
+        const arr = nm1;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === nm2) {
+            return i;
+            }
+        }
+        return -1;
+        }
+    
+        const array = [10, 20, 30, 40, 50];
+        console.log(fUNcTion(array, 30)); 
+    </script>
+
+
+
+</body>
+</html>
+
